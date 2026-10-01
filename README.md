@@ -1,4 +1,3 @@
-<img width="1920" height="2560" alt="1" src="https://github.com/user-attachments/assets/228bbdc5-9818-4ea0-a19b-18c4387d1960" />
 # 🏎️ ESP32 MQTT RC Car - Hệ Thống Xe Điều Khiển Từ Xa Qua Internet
 
 Một dự án cá nhân (Personal Project) về xe mô hình điều khiển từ xa (RC Car) ứng dụng nền tảng Internet of Things (IoT). Thay vì sử dụng các module sóng RF (như nRF24L01) hay Bluetooth truyền thống có giới hạn về khoảng cách, dự án này cho phép điều khiển xe từ bất kỳ đâu thông qua mạng Internet nhờ sức mạnh của vi điều khiển ESP32 và giao thức MQTT.
