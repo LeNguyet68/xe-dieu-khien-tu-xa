@@ -1,3 +1,4 @@
+<img width="1920" height="2560" alt="1" src="https://github.com/user-attachments/assets/228bbdc5-9818-4ea0-a19b-18c4387d1960" />
 # 🏎️ ESP32 MQTT RC Car - Hệ Thống Xe Điều Khiển Từ Xa Qua Internet
 
 Một dự án cá nhân (Personal Project) về xe mô hình điều khiển từ xa (RC Car) ứng dụng nền tảng Internet of Things (IoT). Thay vì sử dụng các module sóng RF (như nRF24L01) hay Bluetooth truyền thống có giới hạn về khoảng cách, dự án này cho phép điều khiển xe từ bất kỳ đâu thông qua mạng Internet nhờ sức mạnh của vi điều khiển ESP32 và giao thức MQTT.
@@ -93,6 +94,7 @@ Hệ thống sử dụng public broker `broker.emqx.io` thông qua topic `hust/i
 * **Xe không kết nối được Wi-Fi:** Mạch ESP32 phần cứng **chỉ hỗ trợ Wi-Fi 2.4GHz**. Đảm bảo cục phát Wi-Fi nhà bạn hoặc điểm phát Hotspot trên điện thoại đang phát ở băng tần 2.4GHz (Không dùng 5GHz).
 * **Bánh xe quay ngược hướng:** Không cần sửa code. Nếu ấn nút đi thẳng mà có 1 bánh xe bị quay lùi, hãy rút 2 sợi dây nối từ bánh xe đó vào L298N ra và cắm đảo chiều lại là xong.
 * **Xe kêu "rè rè" nhưng không nhúc nhích:** Pin đang yếu, không đủ dòng xả để thắng sức ỳ của động cơ. Cần tháo pin ra sạc đầy.
+<img width="1920" height="2560" alt="1" src="https://github.com/user-attachments/assets/72007c51-b30e-45e8-9ba8-254680585869" />
 
 ---
 ### 👩‍💻 Tác giả: Lê Hoàng Ánh Nguyệt
