@@ -31,17 +31,18 @@ void backward() {
   digitalWrite(IN1, HIGH); digitalWrite(IN2, LOW);
   digitalWrite(IN3, LOW); digitalWrite(IN4, HIGH);
 }
-
 void left() {
-  ledcWrite(enA, Speed); ledcWrite(enB, Speed);
-  digitalWrite(IN1, LOW); digitalWrite(IN2, HIGH);
-  digitalWrite(IN3, LOW); digitalWrite(IN4, HIGH);
-}
-
-void right() {
+  // Rẽ trái: Trái lùi, Phải tiến
   ledcWrite(enA, Speed); ledcWrite(enB, Speed);
   digitalWrite(IN1, HIGH); digitalWrite(IN2, LOW);
   digitalWrite(IN3, HIGH); digitalWrite(IN4, LOW);
+}
+
+void right() {
+  // Rẽ phải: Trái tiến, Phải lùi
+  ledcWrite(enA, Speed); ledcWrite(enB, Speed);
+  digitalWrite(IN1, LOW); digitalWrite(IN2, HIGH);
+  digitalWrite(IN3, LOW); digitalWrite(IN4, HIGH);
 }
 
 void stopCar() {
